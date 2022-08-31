@@ -1,0 +1,793 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/fondo3.2.jpg);/**/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: skyblue;
+}
+
+div, body {
+    margin: 0;
+    padding: 0;
+    font-family: exo, sans-serif;
+}
+
+
+/*
+Diseño login
+*/
+.conten {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: red;/**/
+    border-radius: 1.3vw;
+    box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+        -2px 2px 15px black, 2px -2px 15px black;
+
+    width: max-content;
+    height: max-content;
+    margin: auto;/**/
+}
+
+.cl {
+    min-width: 20vw;
+    width: 20vw;
+    height: max-content;
+    height: 100%;
+    bottom: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+.cb {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: green;/**/
+
+    width: 100%;
+    height: 100%;
+}
+
+.limg {
+    width: 100%;
+    /*box-shadow: 2px 2px 10px red, -2px -2px 10px red, 
+        -2px 2px 10px red, 2px -2px 10px red;/**/
+    border-radius: 100%;
+    
+    padding: 0px;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: brown;/**/
+}
+
+.cu {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: blue;/**/
+
+    height: 100%;
+}
+
+.usu {
+    width: 75%;
+}
+
+
+/*
+Diseño Cabecera
+*/
+.dropdown {
+    width: max-content;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: white;/**/
+}
+
+.dropright {
+    width: max-content;
+    height: max-content;
+}
+
+.dropdown a {
+    width: 100% ;
+    height: 100%;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: orchid;/**/
+}
+
+.cabe {
+    margin: auto;
+    width: 4vw;
+    border-radius: 100%;/**/
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: goldenrod;/**/
+
+    box-shadow: 2px 2px 10px red, -2px -2px 10px red, 
+        -2px 2px 10px red, 2px -2px 10px red;
+    transition: 0.5s;
+}
+
+.cabe:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px red, -5px -5px 15px red, 
+        -5px 5px 15px red, 5px -5px 15px red;
+    /*border-color: whitesmoke;*/
+}
+
+/*
+Diseño del cuerpo
+*/
+.cuerpo {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: green;/**/
+
+    width: 100%;
+    height: max-content;
+    float: left;
+    background-image: url(../img/fondo3.2.jpg);/**/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: skyblue;
+}
+
+.cab {
+    border-bottom-style: groove;
+    border-width: 2px;
+    border-color: #c0c0c0;
+    width: 100%;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: brown;/**/
+}
+
+/*
+Diseño de la barra de opciones
+*/
+.barra {
+    width: 100%;
+    background: linear-gradient(to bottom, gray, #c0c0c0);
+    /*border-image: linear-gradient(to bottom, #c0c0c0, transparent) 1;/**/
+    height: max-content;
+    float: left;
+    border-bottom-style: groove;
+    border-width: 5px;
+    border-color: #c0c0c0;
+    width: 100%;
+
+    /*border-style: groove;
+    border-width: 2px;
+    border-color: blue;/**/
+}
+
+.sd {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: purple;/**/
+
+    height: max-content;
+    width: 100%;
+    float: left;
+}
+
+.sba {
+    background-color: rgba(20, 20, 20, 0.2);
+    padding: 5px;
+    margin: auto;
+    transition: 0.65s;
+    color: whitesmoke;
+    font-size: 2.1vw;
+    display: inline-block;
+    margin: 5px;
+    border-width: 2px;
+    border-radius: 15px;
+
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0.1px 0.1px 4px red, -0.1px -0.1px 4px red, 
+        -0.1px 0.1px 4px red, 0.1px -0.1px 4px red;
+    border-color: transparent;/**/
+}
+
+.sba:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: xx-large;
+    color: white;
+    text-shadow: 1px 1px red, -1px -1px red, 
+        -1px 1px red, 1px -1px red;
+    display: inline-block;
+    margin: 5px;
+
+    border-radius: 15px;
+    border-width: 2px;
+    box-shadow: 5px 5px 15px red, -5px -5px 15px red, 
+        -5px 5px 15px red, 5px -5px 15px red;
+    /*border-color: whitesmoke;/**/
+}
+
+/*
+Diseño contenido de publicaciones/tareas
+*/
+.contenido {
+    /*border-style: groove;
+    border-width: 2px;
+    border-color: yellow;/**/
+
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+}
+
+.conte {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: skyblue;/**/
+
+    border-radius: 15px;
+    float: left;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    width: 100%;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+        -2px 2px 15px black, 2px -2px 15px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cuerpo div {
+    padding: 5px;
+}
+
+.co {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: yellowgreen;/**/
+
+    width: 100%;
+    height: max-content;
+    float: left;
+}
+
+.contenedor {
+    max-height: 100%;
+    max-width: 20%;
+    margin: auto;
+    float: left;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: white;/**/
+}
+
+.contimg {
+    width: 100%;
+    height: 100%;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: gold;/**/
+
+    display: table;
+    display: table-cell;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+}
+
+.imgcas {
+    width: 100%;
+    float: left;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(25,25,25);/**/
+}
+
+.pcc {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: aqua;/**/
+
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.cimg2 {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: blueviolet;/**/
+
+    float: left;
+    width: 100%;
+    height: max-content;
+}
+
+.cimg {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: blueviolet;/**/
+
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+.txt {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-shadow: 0.5px 0.5px 5px black, -0.5px -0.5px 5px black, 
+        -0.5px 0.5px 5px black, 0.5px -0.5px 5px black;
+    color: whitesmoke;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+        -2px 2px 15px black, 2px -2px 15px black;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: white;/**/
+}
+
+.lt {
+    text-shadow: 1px 1px 5px red, -1px -1px 5px red, 
+        -1px 1px 5px red, 1px -1px 5px red;
+    color: whitesmoke;
+}
+
+/*
+Administrar Usuarios
+*/
+.bdr {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: max-content;
+    margin-bottom: 5vw;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+        -2px 2px 15px black, 2px -2px 15px black;
+
+    /*border-color: blueviolet;/**/
+}
+
+.aucont {
+    width: max-content;
+    margin: auto;
+    color: white;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: blue;/**/
+}
+
+.rrr {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: greenyellow;/**/
+
+    margin: auto;
+    float: left;
+    width: 100%;
+    height: max-content;
+}
+
+.lt2 {
+    text-shadow: 1px 1px 5px red, -1px -1px 5px red, 
+        -1px 1px 5px red, 1px -1px 5px red;
+    color: black;
+    width: max-content;
+    float: left;
+    margin: auto;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: red;/**/
+}
+
+.lt2 input {
+    width: 100%;
+    margin: auto;
+}
+
+.txtbtn {
+    background-color: whitesmoke;
+    text-shadow: 1px 1px 5px transparent, -1px -1px 5px transparent, 
+        -1px 1px 5px transparent, 1px -1px 5px transparent;
+}
+
+.tabla {
+    float: left;
+    width: 46%;
+    height: 30vw;
+    margin: 2%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 3vw;
+    box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+        -2px 2px 15px black, 2px -2px 15px black;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: aqua;/**/
+}
+
+.tabla2 {
+    width: 46%;
+    height: max-content;
+    margin: auto;
+    border-radius: 3vw;
+    box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+        -2px 2px 15px black, 2px -2px 15px black;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: aqua;/**/
+}
+
+.ttlo {
+    margin-left: 35px;
+    margin-right: 15px;
+    float: right;
+}
+
+.cbra {
+    background-color: rgb(40, 40, 40);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    width: 100%;
+}
+
+.lt3 {
+    text-shadow: 1px 1px 1.5px red, -1px -1px 1.5px red, 
+        -1px 1px 1.5px red, 1px -1px 1.5px red;
+    color: black;
+    width: max-content;
+    float: left;
+    margin: auto;
+    word-break: break-all;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: red;/**/
+}
+
+.txtbas {
+    transition: 0.5s;
+}
+
+.txtbas:cell-selection {
+    background-color: rgba(0, 0, 0, 7);
+    text-shadow: 1px 1px 1px red, -1px -1px 1px red, 
+        -1px 1px 1px red, 1px -1px 1px red;
+}
+
+.ñ {
+    width: 100%;
+    height: max-content;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: green;/**/
+
+    align-content: center;
+}
+
+.lt2t {
+    text-shadow: 1px 1px 5px red, -1px -1px 5px red, 
+        -1px 1px 5px red, 1px -1px 5px red;
+    color: black;
+    width: max-content;
+    margin: auto;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: red;/**/
+}
+
+.lt2t input {
+    text-shadow: 1px 1px 5px red, -1px -1px 5px red, 
+        -1px 1px 5px red, 1px -1px 5px red;
+    color: black;
+    width: 100%;
+    margin: auto;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: brown;/**/
+}
+
+/*
+Diseño agregar tareas
+*/
+.txtt {
+    font-size: large;
+    width: 100%;
+    height: max-content;
+    color: black;
+}
+
+.fake-textarea {
+    width: 40vw;
+    padding: .5rem;
+    min-height: 3rem;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+.fake-textarea:empty::before {
+    position: absolute;
+}
+
+.description {
+    display: none;
+}
+
+.t {
+    color: whitesmoke;
+}
+
+.t div {
+    text-shadow: 1px 1px 5px transparent, -1px -1px 5px transparent, 
+        -1px 1px 5px transparent, 1px -1px 5px transparent;
+}
+
+.t input {
+    text-shadow: 1px 1px 5px transparent, -1px -1px 5px transparent, 
+        -1px 1px 5px transparent, 1px -1px 5px transparent;
+}
+
+.conteni {
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: blue;/**/
+
+    width: 100%;
+    height: max-content;
+    float: left;
+}
+
+
+/*
+Estilos para la visualización en celular
+*/
+@media screen and (max-width: 720px){
+    body {
+        background-position: right 30% center;
+    }
+
+    .cuerpo {
+        width: 100%;
+        height: max-content;
+        float: left;
+        /*background-image: url(../img/fondo2.jpg);/**/
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: skyblue;
+        background-position: right 30% center;
+    }
+
+    /*
+    Diseño login movil
+    */
+    .conten {
+        width: max-content;
+        height: max-content;
+        /*margin: auto;/**/
+    }
+
+    .cl {
+        min-width: 20vw;
+        width: 70vw;
+        height: max-content;
+        bottom: 20%;
+        padding: 0.5em;
+
+        border-radius: 0px;
+    }
+
+    .cb {
+        width: 100%;
+        height: 100%;
+    }
+
+    .limg {
+        width: 100%;
+    }
+
+    .cu {
+        height: max-content;
+        max-height: max-content;
+    }
+
+    .usu {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    /*
+    Diseño cabecera movil
+    */
+
+    .dropdown {
+        width: 10px;
+        /*border-style: solid;
+        border-width: 2px;
+        border-color: white;/**/
+    }
+
+    .dropright {
+        width: 100%;
+        height: max-content;
+    }
+    #exp {
+        margin-left: -170px;
+    }
+
+    .cdr {
+        margin-right: 50px;
+    }
+
+    .cabe {
+        width: 50px;
+        max-width: max-content;
+        transition: 0s;
+    }
+
+    .co img {
+        width: 100%;
+    }
+
+    .contimg {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*
+    Diseño barra de opciones movil
+    */
+    .sba {
+        font-size: 4vw;
+        display: inline-block;
+        margin: 5px;
+        transition: 0s;
+    }
+
+    .sba:hover {
+        font-size: 4.5vw;
+        background-color: rgba(0, 0, 0, 0.75);
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .pcc {
+        width: 100%;
+        height: max-content;
+        float: left;
+    }
+
+    .cimg {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: max-content;
+    }
+
+    .cimg2 {
+        margin-top: -15px;
+        width: 100%;
+        height: 100%;
+        font-size: 6vw;
+        height: 100%;
+    }
+
+    .txt {
+        background-color: rgba(100, 100, 100, 0.25);
+        width: 100%;
+        height: 250px;
+    }
+
+    .lt {
+
+    }
+
+    .bdr {
+        width: 100%;
+
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+            -2px 2px 15px black, 2px -2px 15px black;
+    }
+
+    .lt2 {
+        font-size: 5vw;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tabla {
+        width: 100%;
+        margin: auto;
+        height: max-content;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 3vw;
+        box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+            -2px 2px 15px black, 2px -2px 15px black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tabla2 {
+        width: 100%;
+        margin: auto;
+        height: max-content;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 3vw;
+        box-shadow: 2px 2px 15px black, -2px -2px 15px black, 
+            -2px 2px 15px black, 2px -2px 15px black;
+    }
+
+    .ttlo {
+        margin-left: auto;
+        font-size: large;
+    }
+
+    .lt3 {
+        font-size: x-large;
+        width: 70%;
+    }
+
+    .btnf {
+        width: 55%;
+    }
+
+    .ñ {
+        width: 100%;
+    }
+
+    .contenedor {
+        position: relative;
+        max-width: 100%;
+        vertical-align: top;
+    }
+
+    #boton {
+        width: 15vw;
+        height: 7vw;
+        margin-right: 25px;
+    }
+}
