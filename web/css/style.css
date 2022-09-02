@@ -165,7 +165,7 @@ Diseño Cabecera
 }
 
 .cabe:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(215,215,215,0.2);
     box-shadow: 5px 5px 15px red, -5px -5px 15px red, 
         -5px 5px 15px red, 5px -5px 15px red;
     /*border-color: whitesmoke;*/
