@@ -14,4 +14,7 @@
             <li><a class="dropdown-item" href="ControladorA?menu=Administrador&accion=cerrarS">Cerrar Sesion</a></li>                
         </ul>
     </div>
+    <div class="contlogo" >
+        <img class="log" src="img/inver.png">
+    </div>
 </nav>

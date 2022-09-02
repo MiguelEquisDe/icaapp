@@ -30,8 +30,8 @@ public class RegistroDAO {
     int resultado;
 
     public int insertar(RegistroBeens r) {
-        String SQL = "insert into registro(nombres,contacto,correo)"
-                + "values(?,?,?)";
+        String SQL = "insert into registro(nombres,contacto,correo,rol)"
+                + "values(?,?,?,?)";
         try {
             cnx = con.ConexBD();
             ps = cnx.prepareStatement(SQL);
@@ -39,6 +39,7 @@ public class RegistroDAO {
             ps.setString(1, r.getNombres());
             ps.setString(2, r.getContacto());
             ps.setString(3, r.getCorreo());
+            ps.setString(4, r.getRol());
 
             ps.executeUpdate();
 

@@ -39,7 +39,7 @@
                                 <div class="lt2 t">
                                     <center><label class="txtba"><b>Contacto</b></label></center>
                                     <input type="number" value="${datos.getContacto()}" name="contacto" class="form-control" placeholder="Numero de contacto" required>
-                                    <a style="color: white; font-size: small">(Verificar numero telefónico)</a>
+                                    <a style="color: white; font-size: small">(Verificar número telefónico)</a>
                                 </div>
                                 <div class="lt2 t">
                                     <center><label class="txtba"><b>Correo</b></label></center>
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="lt2 t">
                                     <center><label class="txtba"><b>Rol</b></label></center>
-                                    <input type="text" value="${datos.getRol()}" name="rol" class="form-control" placeholder="¿Administrador o Usuario?">
+                                    <input type="text" value="${datos.getRol()}" name="rol" class="form-control" placeholder="¿Moderador o Usuario?">
                                     <a style="color: white; font-size: small">(Asegurese de asignar correctamente el Rol)
                                         <br>(Al dejar el espacio en blanco se le asignará rol de Usuario)</a>
                                 </div>
@@ -82,27 +82,27 @@
                     <table>
                         <tr class="ñ">
                             <th><h1 class="lt ttlo"><b>ID:</b></h1></th>
-                            <td class="lt3 ñ" colspan="2"><%= reM.getId_registro()%></td>
+                            <td class="lt3" colspan="2"><%= reM.getId_registro()%></td>
                         </tr>
                         <tr class="ñ">
                             <th><h1 class="lt ttlo"><b>Usuario:</b></h1></th>
-                            <td class="lt3 ñ" colspan="2"><%= reM.getNombres()%></td>
+                            <td class="lt3" colspan="2"><%= reM.getNombres()%></td>
                         </tr>
                         <tr class="ñ">
                             <th><h1 class="lt ttlo"><b>Contacto:</b></h1></th>
-                            <td class="lt3 ñ" colspan="2"><%= reM.getContacto()%></td>
+                            <td class="lt3" colspan="2"><%= reM.getContacto()%></td>
                         </tr>
                         <tr class="ñ">
                             <th><h1 class="lt ttlo"><b>Correo:</b></h1></th>
-                            <td class="lt3 ñ" colspan="2"><%= reM.getCorreo()%></td>
+                            <td class="lt3" colspan="2"><%= reM.getCorreo()%></td>
                         </tr>
                         <tr class="ñ">
                             <th><h1 class="lt ttlo"><b>Rol:</b></h1></th>
-                            <td class="lt3 ñ" colspan="2"><%= reM.getRol()%></td>
+                            <td class="lt3" colspan="2"><%= reM.getRol()%></td>
                         </tr>
                         <tr class="ñ">
                             <th><h1 class="lt ttlo"><b>Opciones:</b></h1></th>
-                            <td class="ñ">
+                            <td>
                         <center>
                             <a href="ControladorA?menu=Administrador&accion=cargar&id_registro=<%= reM.getId_registro()%>" class="txtbtn btn btn-outline-success">
                                 <b>Actualizar</b>

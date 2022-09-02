@@ -38,5 +38,8 @@
                 </div>
             </center>
         </div>
+        <div class="contlogo indx">
+            <img class="log logindx" src="img/inver.png">
+        </div>
     </body>
 </html>

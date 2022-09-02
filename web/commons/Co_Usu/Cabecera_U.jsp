@@ -14,4 +14,7 @@
             <li><a class="dropdown-item" href="ControladorU?menu=Datos&accion=cerrarS">Cerrar Sesion</a></li>
         </ul>
     </div>
+    <div class="contlogo" >
+        <img class="log" src="img/inver.png">
+    </div>
 </nav>

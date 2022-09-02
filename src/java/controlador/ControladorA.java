@@ -72,7 +72,12 @@ public class ControladorA extends HttpServlet {
                     Beens.setNombres(nom);
                     Beens.setContacto(con);
                     Beens.setCorreo(cor);
-                    Beens.setRol(rol);
+
+                    if (rol.isEmpty()) {
+                        Beens.setRol("Usuario");
+                    } else {
+                        Beens.setRol(rol);
+                    }
 
                     DAO.insertar(Beens);
                     request.getRequestDispatcher("exito.jsp").forward(request, response);
@@ -87,7 +92,12 @@ public class ControladorA extends HttpServlet {
                     Beens.setNombres(nom2);
                     Beens.setContacto(con2);
                     Beens.setCorreo(cor2);
-                    Beens.setRol(rol2);
+
+                    if (rol2.isEmpty()) {
+                        Beens.setRol("Usuario");
+                    } else {
+                        Beens.setRol(rol2);
+                    }
 
                     Beens.setId_registro(IdUsr);
                     DAO.modificar(Beens);

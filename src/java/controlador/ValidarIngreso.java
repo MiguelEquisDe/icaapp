@@ -47,7 +47,7 @@ public class ValidarIngreso extends HttpServlet {
                     request.getRequestDispatcher("ControladorA?accion=Ppal").forward(request, response);
                 }
 
-                if (Beens.getRol().equals("Usuario") || Beens.getRol() == null) {
+                if (Beens.getRol().equals("Usuario")) {
                     request.getSession().setAttribute("Usu", Beens);
                     request.setAttribute("Usuario", Beens);
                     request.getRequestDispatcher("ControladorU?accion=Ppal").forward(request, response);
