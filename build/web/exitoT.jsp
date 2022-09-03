@@ -17,8 +17,9 @@
     <body>
         <div class="cuerpo">
             <h1>Registrado</h1>
-            <div class="alert alert-success">
-                <strong>Proceso Finalizado!</strong><a class="alert-link">Cualquier inconformidad puede modificar los datos de la publicación</a>.
+            <div class="alert alert-danger">
+                <strong>Proceso Finalizado! </strong>
+                <a class="alert-link" style="text-decoration: none">Cualquier inconformidad puede modificar los datos de la publicación</a>.
                 <div>
                     <a type="button" class="txtbtn btn btn-outline-danger" href="Menu.jsp">
                         <i class="fas fa-edit"></i><b>Finalizar</b>

@@ -17,8 +17,9 @@
     <body>
         <div class="cuerpo">
             <h1>Registrado</h1>
-            <div class="alert alert-success">
-                <strong>Proceso Finalizado!</strong><a class="alert-link">Informe enviado</a>.
+            <div class="alert alert-danger">
+                <strong>Proceso Finalizado! </strong>
+                <a class="alert-link" style="text-decoration: none">Informe enviado</a>.
                 <div>
                     <a type="button" class="txtbtn btn btn-outline-danger" href="Menu_U.jsp">
                         <i class="fas fa-edit"></i><b>Finalizar</b>

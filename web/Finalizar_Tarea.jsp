@@ -32,11 +32,9 @@
                         <div class="aucont">
                             <center>
                                 <div class="lt2 t" style="width: 100%;">
-                                    <input type="text" value="${Usu.getNombres()}" name="nom" 
-                                           style="background-color: transparent; border-style: none; color: transparent; width: 0.1px; height: 0.1px" disabled="disabled">
+                                    <input type="text" value="${Usu.getNombres()}" name="nom" hidden="">
                                     Título: ${datos.getNombres()}
-                                    <input type="text" value="${datos.getNombres()}" name="tarea" 
-                                           style="background-color: transparent; border-style: none; color: transparent; width: 0.1px; height: 0.1px" disabled="disabled">
+                                    <input type="text" value="${datos.getNombres()}" name="tarea" hidden="">
                                     <br>
                                     <center><label style="margin-bottom: 0px;"><b>Solución:</b></label></center>
                                     <a style="color: black; font-size: small; float: left;">(Solución de la tarea)</a>

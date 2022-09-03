@@ -5,7 +5,6 @@
  */
 package DAO;
 
-import beens.RegistroBeens;
 import java.awt.HeadlessException;
 import java.util.Properties;
 import javax.mail.*;
@@ -16,8 +15,6 @@ import javax.mail.internet.*;
  * @author MIGUEL ANGEL
  */
 public class CorreoDAO {
-
-    RegistroBeens rb = new RegistroBeens();
 
     public void transfer_to_email(String nombres, String tarea) {
         String correoEnvia = "icaapp.frstpp@gmail.com";//correo de origen
