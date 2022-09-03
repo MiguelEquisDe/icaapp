@@ -12,10 +12,6 @@
             body {
                 margin: auto;
             }
-
-            .alert {
-                background-color: rgba(189, 236, 182, 0.5);
-            }
         </style>
     </head>
     <body>
@@ -24,7 +20,7 @@
             <div class="alert alert-success">
                 <strong>Proceso Finalizado!</strong><a class="alert-link">Informe enviado</a>.
                 <div>
-                    <a type="button" class="txtbtn btn btn-outline-success" href="Menu_U.jsp">
+                    <a type="button" class="txtbtn btn btn-outline-danger" href="Menu_U.jsp">
                         <i class="fas fa-edit"></i><b>Finalizar</b>
                     </a>
                 </div>

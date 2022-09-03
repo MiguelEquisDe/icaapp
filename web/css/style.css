@@ -297,6 +297,10 @@ Diseño contenido de publicaciones/tareas
     margin-bottom: 20px;
 }
 
+.alert {
+    background-color: rgba(219,0,0,0.2);
+}
+
 .cuerpo div {
     padding: 5px;
 }
@@ -577,18 +581,6 @@ Diseño agregar tareas
     width: 100%;
     height: max-content;
     color: black;
-}
-
-.fake-textarea {
-    width: 40vw;
-    padding: .5rem;
-    min-height: 3rem;
-    font-size: medium;
-    background-color: whitesmoke;
-}
-
-.fake-textarea:empty::before {
-    position: absolute;
 }
 
 .description {

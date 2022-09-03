@@ -54,7 +54,9 @@
                                 </div>
                             </div>
                             <center>
-                                <a style="color: white; font-size: small">Verificar los datos antes de agregar o actualizar</a>
+                                <a style="color: white; font-size: small; 
+                                   text-shadow: 1.5px 1.5px 2.5px black, -1.5px -1.5px 2.5px black, 
+                                   -1.5px 1.5px 2.5px black, 1.5px -1.5px 2.5px black;">Verificar los datos antes de agregar o actualizar</a>
                             </center>
                         </div>
                     </div>
